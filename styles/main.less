@@ -1,0 +1,78 @@
+@import "ui-variables";
+
+.rustsym {
+
+  @status-brand-color: darken(@text-color, 10%);
+  @status-mode-color: darken(@text-color, 20%);
+  @status-state-color: darken(@text-color, 10%);
+
+  &-status-bar {
+    padding: 0 .7em;
+    position: relative;
+    &__brand {
+      color: @status-brand-color;
+      font-weight: 600;
+    }
+    &__mode {
+      color: @status-mode-color;
+      font-size: .9em;
+    }
+    &__state {
+      bottom: 0;
+      color: @text-color-info;
+      font-size: .95em;
+      position: absolute;
+      // Should match status bar padding
+      right: .7em;
+    }
+  }
+
+  &-symbol {
+    &:after {
+      clear: both;
+      content: "";
+      display: block;
+    }
+    &__container {
+      font-size: .95em;
+      opacity: .75;
+    }
+    &__kind {
+      display: inline-block;
+      font-size: .95em;
+      margin-right: .5em;
+      opacity: .5;
+      width: 4em;
+    }
+    &__location {
+      float: right;
+      font-size: .95em;
+      opacity: .75;
+    }
+    &__name {
+      float: left;
+    }
+  }
+
+}
+
+atom-panel.modal {
+  .rustsym.select-list {
+    ol.list-group {
+      background-color: @app-background-color;
+      border-right-width: 2px;
+      margin-bottom: .6em;
+      li {
+        border-bottom: 0;
+        line-height: normal;
+        padding: .5em 1em;
+        &:hover {
+          cursor: pointer;
+        }
+        &:not(.selected):hover {
+          background-color: fade(@button-background-color-hover, 25%);
+        }
+      }
+    }
+  }
+}

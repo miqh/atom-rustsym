@@ -1,0 +1,22 @@
+{
+  "env": {
+    "atomtest": true,
+    "browser": true,
+    "es6": true,
+    "jasmine": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "atom": false
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  }
+}

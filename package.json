@@ -1,0 +1,27 @@
+{
+  "name": "rustsym",
+  "version": "0.1.0",
+  "description": "Provides symbol navigation for Rust code",
+  "keywords": [
+    "rust",
+    "symbols",
+    "navigation"
+  ],
+  "author": "Michael Huynh <miqid@outlook.com> (https://github.com/miqid)",
+  "repository": "https://github.com/miqid/atom-rustsym",
+  "homepage": "https://atom.io/packages/rustsym",
+  "bugs": {
+    "url": "https://github.com/miqid/atom-rustsym/issues"
+  },
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1"
+  }
+}
