@@ -1,5 +1,8 @@
 # rustsym
 
+[![apm][apm-badge]][apm]
+[![ci][ci-badge]][ci]
+
 An [Atom][] package that provides symbol navigation for [Rust][] code using
 [`rustsym`][].
 
@@ -48,5 +51,9 @@ This package is still under development.
 
 [`rustsym`]: https://github.com/trixnz/rustsym
 [`symbols-view`]: https://atom.io/packages/symbols-view
+[apm]: https://atom.io/packages/rustsym
+[apm-badge]: https://img.shields.io/apm/v/rustsym.svg?style=flat-square
 [atom]: https://atom.io
+[ci]: https://travis-ci.org/miqid/atom-rustsym
+[ci-badge]: https://img.shields.io/travis/miqid/atom-rustsym/master.svg?style=flat-square
 [rust]: https://www.rust-lang.org
