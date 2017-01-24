@@ -3,7 +3,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning][].
 
-## 0.2.0 - 2017-01-08
+## [0.3.0][] - 2017-01-24
+
+### Adds
+- Package setting to specify a custom path to the `rustsym` executable.
+- Package setting to adjust debounce time when entering search terms for symbols.
+
+### Fixes
+- Package not activating on the specified override commands.
+
+## [0.2.0][] - 2017-01-08
 
 ### Adds
 - Package settings to override commands for an existing symbols provider.
@@ -13,5 +22,8 @@ This project adheres to [Semantic Versioning][].
 
 ### Adds
 - Initial source files for a basic working prototype.
+
+[0.3.0]: https://github.com/miqid/atom-rustsym/compare/0.2.0...0.3.0
+[0.2.0]: https://github.com/miqid/atom-rustsym/compare/0.1.0...0.2.0
 
 [semantic versioning]: http://semver.org/

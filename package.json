@@ -1,6 +1,6 @@
 {
   "name": "rustsym",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Provides symbol navigation for Rust code",
   "keywords": [
     "rust",
