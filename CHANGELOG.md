@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning][].
 
+## [0.4.0][] - 2017-08-15
+
+**Note:** This update involved a fairly broad rework of package internals.
+
+### Fixes
+- Package no longer functioning due to an obsolete dependency ([#3][]).
+
 ## [0.3.1][] - 2017-05-15
 
 ### Fixes
@@ -28,10 +35,12 @@ This project adheres to [Semantic Versioning][].
 ### Adds
 - Initial source files for a basic working prototype.
 
+[0.4.0]: https://github.com/miqid/atom-rustsym/compare/0.3.1...0.4.0
 [0.3.1]: https://github.com/miqid/atom-rustsym/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/miqid/atom-rustsym/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/miqid/atom-rustsym/compare/0.1.0...0.2.0
 
+[#3]: https://github.com/miqid/atom-rustsym/issues/3
 [#1]: https://github.com/miqid/atom-rustsym/issues/1
 
 [semantic versioning]: http://semver.org/
