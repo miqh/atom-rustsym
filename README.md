@@ -47,7 +47,8 @@ Alternatively, you can also click on a symbol for navigation.
 
 ## Contributing
 
-This package is still under development.
+Please open up a new issue for any bug reports or requests, providing as much
+detail as possible. 
 
 [`rustsym`]: https://github.com/trixnz/rustsym
 [`symbols-view`]: https://atom.io/packages/symbols-view
