@@ -2,13 +2,14 @@
 
 describe('rustsym', () => {
 
-  beforeEach(async () => await atom.packages.activatePackage('rustsym'));
+  beforeEach(() => waitsForPromise(() => atom.packages.activatePackage('rustsym')));
 
   describe('given a Rust source file is open', () => {
 
-    beforeEach(async () => await atom.workspace.open('tmp.rs'));
+    // Package depends on file extension to trigger
+    beforeEach(() => waitsForPromise(() => atom.workspace.open('file.rs')));
 
-    describe('when the manual file symbols command is used', async () => {
+    describe('when the manual file symbols command is used', () => {
       it('should show the file symbols search view', async () => {
         let workspaceElement = atom.views.getView(atom.workspace);
         let textEditorElement = atom.views.getView(atom.workspace.getActiveTextEditor());
