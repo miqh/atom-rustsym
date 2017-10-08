@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning][].
 
+## [0.4.1][] - 2017-10-08
+
+### Fixes
+- Package failing activation due to Atom 1.21 API changes ([#4][]).
+
 ## [0.4.0][] - 2017-08-15
 
 **Note:** This update involved a fairly broad rework of package internals.
@@ -35,11 +40,13 @@ This project adheres to [Semantic Versioning][].
 ### Adds
 - Initial source files for a basic working prototype.
 
+[0.4.1]: https://github.com/miqid/atom-rustsym/compare/0.4.0...0.4.1
 [0.4.0]: https://github.com/miqid/atom-rustsym/compare/0.3.1...0.4.0
 [0.3.1]: https://github.com/miqid/atom-rustsym/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/miqid/atom-rustsym/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/miqid/atom-rustsym/compare/0.1.0...0.2.0
 
+[#4]: https://github.com/miqid/atom-rustsym/issues/4
 [#3]: https://github.com/miqid/atom-rustsym/issues/3
 [#1]: https://github.com/miqid/atom-rustsym/issues/1
 
