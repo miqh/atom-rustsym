@@ -55,6 +55,6 @@ detail as possible.
 [apm]: https://atom.io/packages/rustsym
 [apm-badge]: https://img.shields.io/apm/v/rustsym.svg?style=flat-square
 [atom]: https://atom.io
-[ci]: https://travis-ci.org/miqid/atom-rustsym
-[ci-badge]: https://img.shields.io/travis/miqid/atom-rustsym/master.svg?style=flat-square
+[ci]: https://travis-ci.org/miqh/atom-rustsym
+[ci-badge]: https://img.shields.io/travis/miqh/atom-rustsym/master.svg?style=flat-square
 [rust]: https://www.rust-lang.org
